@@ -81,7 +81,6 @@ public class remainBug {
         put("商务", BUSINESS);
     }};
 
-
     public static String getKeyFromValue(String value) {
         for (Map.Entry<String, List<String>> entry : PEOPLE_MAP.entrySet()) {
             if (entry.getValue().contains(value)) {
